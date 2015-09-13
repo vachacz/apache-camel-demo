@@ -1,15 +1,10 @@
-package pl.mobica.camel;
+package pl.vachacz.camel;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.Exchange;
-import org.apache.camel.Message;
-import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.processor.aggregate.AggregationStrategy;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class CamelDemo {
 
