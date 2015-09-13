@@ -1,6 +1,6 @@
 # apache-camel-demo
 
-This is a simpel demo of Apache Camel.
+This is a simple demo of Apache Camel.
 
 ## How to use ?
 
@@ -9,6 +9,9 @@ After executing the main method in CamelDemo class, **input/text.txt** file will
 Logic of the example is very simple. All records are printed on stdout. Additionally the code appends aggregated orders/complaints/returns to a approperiate type_<type_id>.txt.
 
 ![alt tag](https://github.com/vachacz/apache-camel-demo/blob/master/diagram.png?raw=true)
+
+Read more:
+http://camel.apache.org/enterprise-integration-patterns.html
 
 ```
 [ORDER] 1234 4
