@@ -1,0 +1,15 @@
+group 'pl.mobica.camel'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.camel', version: '2.15.3', name: 'camel-core'
+    compile group: 'org.apache.camel', version: '2.15.3', name: 'camel-stream'
+}
